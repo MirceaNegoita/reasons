@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    background-color: #ff4c4c;
+    font-family: 'Montserrat'
+}
+
+.reasons-container {
+    margin-top: 10%;
+}
+
+.preview-button {
+    background-color: #ff1919;
+    margin-left: 90%;
+    border-color: #ffffff;
+}
+
+.preview-button:hover {
+    background-color: #ff6666;
+    border-color: #ffffff;
+}
+
+.preview-button:focus {
+    background-color: #ff0000;
+}
+
+.next-button {
+    margin-left: 85%;
+    background-color: #ff1919;
+    border-color: #ffffff;
+}
+
+.next-button:hover{
+    background-color: #ff6666;
+    border-color: #ffffff;
+}
+
+.next-button:active {
+    background-color: #ff0000;
+}
+
+.back-button {
+    background-color: #ffffff;
+    color: #ff0000;
+    border-color: #ff3333;
+}
+
+.back-button:hover {
+    background-color: #ff3333;
+    border-color: #ffff;
+}
+
+.back-button:active {
+
+}
+
+.jumbotron {
+    background-color: #fff;
+}
+
+.display-4 {
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+#bear {
+    width: 20px;
+}
+
+#rat {
+    width: 30px;
+}
+
+a {
+    color: #ff0000;
+}
+
+.modal-alert-button {
+    background-color: #ffffff;
+    color: #ff0000;
+    border-color: #ff3333;
+}
+
+.modal-alert-button:hover {
+    background-color: #ff3333;
+    border-color: #ffff;
+}
+
+.modal-close-button {
+    background-color: #ff1919;
+    border-color: #ffffff;
+}
+
+.modal-close-button:hover{
+    background-color: #ff6666;
+    border-color: #ffffff;
+}
+
+.modal-button{
+    background-color: #fff;
+    border:none;
+    color: #ff1919;
+}

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <main id="main-body">
+
+        <div class="container">
+            <div class="reasons-container">
+                <div class="jumbotron" id="preview">
+                    <h1 class="display-4">Hello my love</h1>
+                    <hr class="my-4">
+                    <p>I was getting ready to sleep after we talked on the phone and I was thinking what can I do about the presentation tommorow, well it turns out I hyped myself so much tonight with ideeas that I could not sleep anymore so I began to code after all it combines two of my favorite things in the world, my love for you and coding</p>
+                    <hr class="my-4">
+                    <button onclick="displayFirstReason()" class="btn btn-primary btn-lg preview-button">BEGIN</button>
+                </div>
+
+                <div class="jumbotron" id="reason-1" style="display:none">
+                    <h1 class="display-4">Reason #1</h1>
+                    <h2 class="subtitle">Your smile</h2>
+                    <hr class="my-4">
+                    <p>I know, i know, this sounds like the most boring and cliche thing ever, but <img id="bear" src="images/bear.svg" alt=""> with me tough and let me explain. When normally someone smiles at me I would normally not gives a <img id="rat" src="images/rat.svg" alt=""> ass, but your smile, your beautiful smile just fills my heart joy, it just enthralls me and I can not help myself to smile back at you and just hug you and kiss your forehead with affection.</p>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button onclick="backPreview()" class="btn btn-primary btn-lg back-button">BACK</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button onclick="displaySecondReason()" class="btn btn-primary btn-lg next-button">NEXT</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jumbotron" id="reason-2" style="display:none">
+                    <h1 class="display-4">Reason #2</h1>
+                    <h2 class="subtitle">Your geniune beauty</h2>
+                    <hr class="my-4">
+                    <p>Another cheesy one, two in row, why not? The term might sound confusing, </p>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button onclick="backFirstReason()" class="btn btn-primary btn-lg back-button">BACK</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button onclick="displayThirdReason()" class="btn btn-primary btn-lg next-button">NEXT</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jumbotron" id="reason-3" style="display:none">
+                    <h1 class="display-4">Reason #3</h1>
+                    <hr class="my-4">
+                    <p>I was getting ready to sleep after we talked on the phone and I was thinking what can I do about the presentation tommorow, well it turns out I hyped myself so much tonight with ideeas that I could not sleep anymore so I began to code after all it combines two of my favorite things in the world, my love for you and coding</p>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button onclick="backSecondReason()" class="btn btn-primary btn-lg back-button">BACK</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button onclick="displayFourthReason()" class="btn btn-primary btn-lg next-button">NEXT</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jumbotron" id="reason-4" style="display:none">
+                    <h1 class="display-4">Reason #4</h1>
+                    <hr class="my-4">
+                    <p>I was getting ready to sleep after we talked on the phone and I was thinking what can I do about the presentation tommorow, well it turns out I hyped myself so much tonight with ideeas that I could not sleep anymore so I began to code after all it combines two of my favorite things in the world, my love for you and coding</p>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button onclick="backThirdReason()" class="btn btn-primary btn-lg back-button">BACK</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button onclick="displayFifthReason()" class="btn btn-primary btn-lg next-button">NEXT</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jumbotron" id="reason-5" style="display:none">
+                    <h1 class="display-4">Reason #5</h1>
+                    <hr class="my-4">
+                    <p>I was getting ready to sleep after we talked on the phone and I was thinking what can I do about the presentation tommorow, well it turns out I hyped myself so much tonight with ideeas that I could not sleep anymore so I began to code after all it combines two of my favorite things in the world, my love for you and coding</p>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button onclick="backFourthReason()" class="btn btn-primary btn-lg back-button">BACK</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button onclick="displaySixthReason()" class="btn btn-primary btn-lg next-button">NEXT</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jumbotron" id="reason-6" style="display:none">
+                    <h1 class="display-4">Reason #6</h1>
+                    <h2 class="subtitle">Your sense of humor</h2>
+                    <hr class="my-4">
+                    <p>Now I enjoy being a retard from times to times, when I am with you I enjoy it the most, from us filming that silly video where you acted as a chiuaua and bit from laughing at eachother and laughing at you while you rotate in your sleep, DEMAND things or simply turning upside down and hitting me with your legs, it is a good laugh.</p>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button onclick="backFifthReason()" class="btn btn-primary btn-lg back-button">BACK</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button onclick="displaySeventhReason()" class="btn btn-primary btn-lg next-button">NEXT</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jumbotron" id="reason-7" style="display:none">
+                    <h1 class="display-4">Reason #7</h1>
+                    <h2 class="subtitle">Your honesty</h2>
+                    <hr class="my-4">
+                    <p>Now I will be frank here, sometimes your honesty is like a rock thrown in a head but I would rather live my whole life being hit by truth-rocks than to be comforted by lie-feathers. I appreciate you being honest with me even tough my reaction is not so pleasent(understatement of the year). I will always and always appreciate you saying the truth even if I do not show it deep down inside it is one of your qualities that I appreciate the most.</p>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button onclick="backSixthReason()" class="btn btn-primary btn-lg back-button">BACK</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button onclick="displayEigthReason()" class="btn btn-primary btn-lg next-button">NEXT</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jumbotron" id="reason-8" style="display:none">
+                    <h1 class="display-4">Reason #8</h1>
+                    <h2 class="subtitle">Your cooking skills</h2>
+                    <hr class="my-4">
+                    <p>As someone who would rather write a 100-page paper about the mating patterns of the starfish instead of boiling an egg, watching you take some raw ingredients and making something that is actually delicious not only baffles me but also I keep wondering if you are not secretly a witch (you are not are you?)</p>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button onclick="backSeventhReason()" class="btn btn-primary btn-lg back-button">BACK</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button onclick="displayNinthReason()" class="btn btn-primary btn-lg next-button">NEXT</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jumbotron" id="reason-9" style="display:none">
+                    <h1 class="display-4">Reason #9</h1>
+                    <h2 class="subtitle">Your integrity</h2>
+                    <hr class="my-4">
+                    <p>Words can not express how much I appreciate this value. I believe it's one of the keys to a relationship, but also to other things such as a good career. When we were talking about values and what values changed when you got there I was really impressed that you adopted this, you have my admiration and respect for it. Also cand mi-ai spus despre faza cu sarutul a part of me was really grateful that you told me and were transparent.</p>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button onclick="backEigthReason()" class="btn btn-primary btn-lg back-button">BACK</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button onclick="displayTenthReason()" class="btn btn-primary btn-lg next-button">NEXT</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jumbotron" id="reason-10" style="display:none">
+                    <h1 class="display-4">Reason #10</h1>
+                    <h2 class="subtitle">Your listening skills</h2>
+                    <hr class="my-4">
+                    <p>As an individual who does not particularly enjoy talking too much I highly appreciate it when you take time and listen to me rant about how much things sucks sometimes, how much I love the new video game I am playing or what I am programming next(I appreciate this because even tough you have almost no clue about what I am talking about you still carry on). I always feel that I am listned to and this is one of the reasons that makes me come back for more and more talking.</p>
+
+                    <p>And that my Dorina si 10 reasons why I love you and appreciate you or is it?click <button type="button" class="modal-button" data-toggle="modal" data-target="#exampleModal">
+                            here
+                        </button> to find out!</p>
+                    
+                    <!-- Button trigger modal -->
+                    
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Reason #11</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TcLsMwrjtso" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary modal-close-button" data-dismiss="modal">Close</button>
+                            <button onclick="alert('TE IUBEEEESC <3')" type="button" class="btn btn-primary modal-alert-button">Click here after you watch</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+
+                    <hr class="my-4">
+                    <button onclick="backNinthReason()" class="btn btn-primary btn-lg back-button">BACK</button>
+                </div>
+
+                <!-- Modal -->
+
+
+            </div>
+        </div>
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
